@@ -132,6 +132,29 @@ The LSTM model is created using Keras with the following architecture:
 
 The model is compiled using the Adam optimizer and Mean Squared Error as the loss function, which is appropriate for regression problems.
 
+
+## To run the application:
+
+1. Install the requirements:
+   
+Run the Streamlit app:
+```bash
+streamlit run app.py
+```
+
+2. The app will:
+
+    Allow users to adjust model parameters through the sidebar
+   
+    Train the LSTM model with visual progress indicators
+   
+    Display real vs predicted stock prices in an interactive plot
+   
+    Show prediction metrics like RMSE
+   
+    Provide information about the model and how to use the app
+
+
 ## 📊 Stock Price Prediction
 
 The model predicts stock prices for January 2017 using the following steps:
@@ -153,3 +176,5 @@ The Model shows the general curve for how stocks will move not the sudden peaks 
 ## 🎉 Conclusion
 
 Congratulations! You've now mastered the art of predicting Google stock prices using LSTM networks. Remember, while this model provides valuable insights, always consider multiple factors when making investment decisions. Happy forecasting! 📈🚀
+
+## Hosted Link: https://shiv1803-stock-price-prediction.hf.space
